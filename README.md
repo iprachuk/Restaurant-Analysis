@@ -2,34 +2,33 @@
 
 ## 📋 Project Description
 
-This project presents a comprehensive analysis of restaurant sales and customer behavior using data processing, statistical analysis, and visualization techniques. Developed in Python with Jupyter Notebook, the project transforms transactional restaurant data into actionable business insights.
+This project provides a comprehensive analysis of restaurant sales and customer behavior using Python and Jupyter Notebook.
 
-The analysis explores sales performance, product popularity, customer purchasing patterns, and operational trends to support data-driven decision-making.
+The analysis transforms transactional restaurant data into actionable business insights, helping identify sales trends, customer preferences, and opportunities for operational improvement.
 
 ---
 
 ## 🎯 Project Objectives
 
-The project aims to answer the following business questions:
+The project aims to:
 
-* Which products are the most popular?
-* Which menu items generate the highest revenue?
-* What are the key customer purchasing patterns?
-* How do restaurant sales vary over time?
-* Which factors contribute most to restaurant performance?
-* What trends and opportunities can be identified from the data?
+- Analyze restaurant sales performance;
+- Identify the most popular and profitable products;
+- Explore customer purchasing behavior;
+- Discover sales trends and patterns;
+- Generate business recommendations.
 
 ---
 
 ## 🛠️ Technology Stack
 
-* **Python 3.x** – primary programming language;
-* **Jupyter Notebook** – interactive analysis environment;
-* **Pandas** – data processing and manipulation;
-* **NumPy** – numerical computations;
-* **Matplotlib & Seaborn** – data visualization;
-* **SQLite3** – database management;
-* **Scikit-learn (optional)** – statistical analysis and machine learning techniques.
+- Python 3.x
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SQLite3
 
 ---
 
@@ -46,101 +45,81 @@ Restaurant-Sales-Analysis/
 
 ## 📊 Data Source
 
-The project uses an SQLite3 database (`db.sqlite3`) containing three related tables:
+The project uses an SQLite database containing three related tables:
 
-| Table                | Description                        |
-| -------------------- | ---------------------------------- |
-| restaurant_order     | Customer order information         |
-| restaurant_product   | Product and menu item details      |
-| restaurant_orderitem | Individual items within each order |
+| Table | Description |
+|--------|-------------|
+| restaurant_order | Customer orders |
+| restaurant_product | Product information |
+| restaurant_orderitem | Ordered items |
 
-These tables are joined into a unified dataset for comprehensive analysis.
+The tables are joined into a unified analytical dataset.
 
 ---
 
 ## 📈 Analysis Workflow
 
-### 1. Data Loading
+### Data Preparation
 
-* Importing data from the SQLite database;
-* Verifying data structure and integrity.
+- Data loading;
+- Data cleaning;
+- Data integration.
 
-### 2. Data Cleaning and Preparation
+### Exploratory Data Analysis
 
-* Handling missing values;
-* Removing duplicates;
-* Preparing variables for analysis.
+- Product popularity;
+- Revenue analysis;
+- Customer behavior;
+- Sales distribution.
 
-### 3. Exploratory Data Analysis (EDA)
+### Data Visualization
 
-* Descriptive statistics;
-* Product popularity analysis;
-* Revenue analysis;
-* Customer purchasing behavior;
-* Sales distribution.
+- Bar charts;
+- Histograms;
+- Pie charts;
+- Heatmaps.
 
-### 4. Data Visualization
+### Business Analysis
 
-* Bar charts;
-* Pie charts;
-* Histograms;
-* Heatmaps;
-* Comparative visualizations.
-
-### 5. Business Insights
-
-* Identifying key trends;
-* Evaluating restaurant performance;
-* Generating practical recommendations.
+- Trend identification;
+- Performance evaluation;
+- Business recommendations.
 
 ---
 
 ## ❓ Business Questions
 
-This analysis seeks to answer:
+The analysis addresses questions such as:
 
-* Which products are the most frequently ordered?
-* Which products contribute the most to total revenue?
-* How do customer purchasing habits vary?
-* What sales trends can be observed?
-* Which factors influence restaurant performance?
-
----
-
-## 💡 Key Findings
-
-The analysis provides insights into:
-
-* Product popularity;
-* Revenue-generating menu items;
-* Customer ordering behavior;
-* Sales distribution patterns;
-* Business growth opportunities;
-* Operational performance.
+- Which products are the most popular?
+- Which products generate the highest revenue?
+- How do customers behave?
+- What sales trends can be identified?
+- Which opportunities exist for business growth?
 
 ---
 
-## 🚀 Business Recommendations
+## 💡 Key Insights
 
-Based on the analysis, potential recommendations include:
+The project provides insights into:
 
-* Optimize inventory for popular products;
-* Promote high-revenue menu items;
-* Improve marketing strategies based on customer preferences;
-* Enhance operational efficiency;
-* Support decision-making through data-driven insights.
+- Product popularity;
+- Revenue performance;
+- Customer purchasing patterns;
+- Sales trends;
+- Operational efficiency.
 
 ---
 
-## 📉 Data Visualization
+## 🚀 Business Value
 
-The project includes a variety of visualizations to support analysis:
+The analysis can help businesses:
 
-* Sales distributions;
-* Product comparisons;
-* Revenue analysis;
-* Customer behavior patterns;
-* Statistical summaries.
+- Optimize inventory;
+- Improve menu planning;
+- Increase revenue;
+- Better understand customers;
+- Support data-driven decisions.
 
 ---
 
@@ -148,17 +127,17 @@ The project includes a variety of visualizations to support analysis:
 
 This project showcases practical experience in:
 
-* SQL data extraction;
-* Database joins;
-* Data cleaning;
-* Exploratory Data Analysis (EDA);
-* Data visualization;
-* Statistical analysis;
-* Business analytics;
-* Business storytelling.
+- SQL data extraction;
+- Database joins;
+- Data cleaning;
+- Exploratory Data Analysis (EDA);
+- Data visualization;
+- Business analytics;
+- Customer analytics;
+- Data storytelling.
 
 ---
 
 ## 📌 Conclusion
 
-Restaurant Sales & Customer Behavior Analysis demonstrates a complete data analytics workflow, transforming raw restaurant transaction data into meaningful business insights. The project combines database querying, data cleaning, exploratory analysis, visualization, and business interpretation to support strategic decision-making and improve restaurant performance.
+Restaurant Sales & Customer Behavior Analysis demonstrates a complete end-to-end analytics workflow, transforming restaurant transaction data into actionable business insights that support strategic decision-making and operational optimization.
