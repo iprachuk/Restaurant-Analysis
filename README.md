@@ -1,49 +1,164 @@
-# Restaurant Analysis
+# Restaurant Sales & Customer Behavior Analysis
 
-## 📋 Опис проєкту
+## 📋 Project Description
 
-Цей проект містить комплексний аналіз даних про ресторани з використанням методів обробки даних, статистичного аналізу та візуалізації. Проект розроблений на мові Python з використанням Jupyter Notebook для інтерактивного аналізу.
+This project presents a comprehensive analysis of restaurant sales and customer behavior using data processing, statistical analysis, and visualization techniques. Developed in Python with Jupyter Notebook, the project transforms transactional restaurant data into actionable business insights.
 
-## 🎯 Мета проєкту
+The analysis explores sales performance, product popularity, customer purchasing patterns, and operational trends to support data-driven decision-making.
 
-Аналіз та дослідження характеристик ресторанів включаючи:
-- Розподіл закладів за категоріями та регіонами
-- Аналіз рейтингів та оцінок
-- Вивчення цінових стратегій
-- Дослідження кухні та спеціалізацій
-- Виявлення трендів та патернів у даних
+---
 
-## 🛠️ Технологічний стек
+## 🎯 Project Objectives
 
-- **Python 3.x** - основна мова програмування
-- **Jupyter Notebook** - інтерактивна середовище аналізу
-- **Pandas** - обробка та манипуляція даними
-- **NumPy** - числові обчислення
-- **Matplotlib & Seaborn** - візуалізація даних
-- **SQLite3** - робота з базою даних
-- **Scikit-learn** (опціонально) - машинне навчання та статистика
+The project aims to answer the following business questions:
 
-## 📊 Структура проєкту
+* Which products are the most popular?
+* Which menu items generate the highest revenue?
+* What are the key customer purchasing patterns?
+* How do restaurant sales vary over time?
+* Which factors contribute most to restaurant performance?
+* What trends and opportunities can be identified from the data?
 
+---
+
+## 🛠️ Technology Stack
+
+* **Python 3.x** – primary programming language;
+* **Jupyter Notebook** – interactive analysis environment;
+* **Pandas** – data processing and manipulation;
+* **NumPy** – numerical computations;
+* **Matplotlib & Seaborn** – data visualization;
+* **SQLite3** – database management;
+* **Scikit-learn (optional)** – statistical analysis and machine learning techniques.
+
+---
+
+## 📂 Project Structure
+
+```text
+Restaurant-Sales-Analysis/
+├── README.md
+├── Restaurant_Analysis.ipynb
+└── db.sqlite3
 ```
-Restaurant-Analysis/
-├── README.md                 # Цей файл
-├── *.ipynb                  # Jupyter Notebook файли з аналізом та графіками
-```
 
-## 📈 Основні етапи аналізу
+---
 
-1. **Завантаження даних** - імпорт та перевірка структури даних
-2. **Чистка та підготовка** - обробка пропущених значень, дублікатів
-3. **Розвідувальний аналіз (EDA)** - статистика, розподіли, кореляції
-4. **Візуалізація** - графіки, діаграми, тепла карти
-5. **Висновки** - ключові знаходження та рекомендації
+## 📊 Data Source
 
-## 📊 Джерело даних
+The project uses an SQLite3 database (`db.sqlite3`) containing three related tables:
 
-Дані зберігаються в базі даних **SQLite3** (файл `db.sqlite3`). Проект використовує три основні таблиці:
-- **restaurant_order** - інформація про замовлення
-- **restaurant_product** - дані про продукти/страви
-- **restaurant_orderitem** - деталі кожного замовленого товару
+| Table                | Description                        |
+| -------------------- | ---------------------------------- |
+| restaurant_order     | Customer order information         |
+| restaurant_product   | Product and menu item details      |
+| restaurant_orderitem | Individual items within each order |
 
-Ці таблиці об'єднуються в єдиний набір даних для комплексного аналізу.
+These tables are joined into a unified dataset for comprehensive analysis.
+
+---
+
+## 📈 Analysis Workflow
+
+### 1. Data Loading
+
+* Importing data from the SQLite database;
+* Verifying data structure and integrity.
+
+### 2. Data Cleaning and Preparation
+
+* Handling missing values;
+* Removing duplicates;
+* Preparing variables for analysis.
+
+### 3. Exploratory Data Analysis (EDA)
+
+* Descriptive statistics;
+* Product popularity analysis;
+* Revenue analysis;
+* Customer purchasing behavior;
+* Sales distribution.
+
+### 4. Data Visualization
+
+* Bar charts;
+* Pie charts;
+* Histograms;
+* Heatmaps;
+* Comparative visualizations.
+
+### 5. Business Insights
+
+* Identifying key trends;
+* Evaluating restaurant performance;
+* Generating practical recommendations.
+
+---
+
+## ❓ Business Questions
+
+This analysis seeks to answer:
+
+* Which products are the most frequently ordered?
+* Which products contribute the most to total revenue?
+* How do customer purchasing habits vary?
+* What sales trends can be observed?
+* Which factors influence restaurant performance?
+
+---
+
+## 💡 Key Findings
+
+The analysis provides insights into:
+
+* Product popularity;
+* Revenue-generating menu items;
+* Customer ordering behavior;
+* Sales distribution patterns;
+* Business growth opportunities;
+* Operational performance.
+
+---
+
+## 🚀 Business Recommendations
+
+Based on the analysis, potential recommendations include:
+
+* Optimize inventory for popular products;
+* Promote high-revenue menu items;
+* Improve marketing strategies based on customer preferences;
+* Enhance operational efficiency;
+* Support decision-making through data-driven insights.
+
+---
+
+## 📉 Data Visualization
+
+The project includes a variety of visualizations to support analysis:
+
+* Sales distributions;
+* Product comparisons;
+* Revenue analysis;
+* Customer behavior patterns;
+* Statistical summaries.
+
+---
+
+## 🎓 Skills Demonstrated
+
+This project showcases practical experience in:
+
+* SQL data extraction;
+* Database joins;
+* Data cleaning;
+* Exploratory Data Analysis (EDA);
+* Data visualization;
+* Statistical analysis;
+* Business analytics;
+* Business storytelling.
+
+---
+
+## 📌 Conclusion
+
+Restaurant Sales & Customer Behavior Analysis demonstrates a complete data analytics workflow, transforming raw restaurant transaction data into meaningful business insights. The project combines database querying, data cleaning, exploratory analysis, visualization, and business interpretation to support strategic decision-making and improve restaurant performance.
